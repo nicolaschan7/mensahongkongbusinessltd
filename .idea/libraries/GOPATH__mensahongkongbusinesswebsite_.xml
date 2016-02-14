@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;mensahongkongbusinesswebsite&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../com.mensabusiness" />
+      <root url="file://$PROJECT_DIR$/../welcome" />
+      <root url="file://$PROJECT_DIR$/../src.iml" />
+      <root url="file://$PROJECT_DIR$/../mensahongkongbusinessltd" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../welcome/.idea" />
+      <root url="file://$PROJECT_DIR$/../mensahongkongbusinessltd/.idea" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+    </excluded>
+  </library>
+</component>

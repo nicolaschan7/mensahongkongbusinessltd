@@ -1,0 +1,23 @@
+application: mensahongkongbusinessltd
+
+version: 1
+
+runtime: go
+
+api_version: go1
+
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /(.*\.(css|gif|png|jpg|ico|js|html))
+  static_files: www/\1
+  upload: www/(.*\.(css|gif|png|jpg|ico|js|html))
+
+- url: /(.*\.(css|gif|png|jpg|ico|js|html))
+  static_files: www/images/\1
+  upload: www/images/(.*\.(css|gif|png|jpg|ico|js|html))
+
+- url: /.*
+  script: _go_app
