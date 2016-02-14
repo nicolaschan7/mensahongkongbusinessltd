@@ -1,4 +1,4 @@
-package mensahongkongbusinessltd
+package server
 
 import (
 	"fmt"
